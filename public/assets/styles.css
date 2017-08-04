@@ -1,0 +1,108 @@
+body {
+    background: #0d1521;
+    font-family: tahoma;
+    color: #989898;
+}
+
+#todo-table {
+    position: relative;
+    widows: 95%;
+    background: #090d13;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after {
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 20px;
+    background: #181c22;
+    border: 0;
+    float: left;
+    font-size: 20px;
+}
+
+button {
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #23282e;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover {
+    text-decoration: line-through;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    background: #0c0410;
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+
+/*
+html {
+    font-size: 2em;
+    color: white;
+}
+body { 
+    
+    text-align: center;
+    background-color: #ddf;
+    
+}
+
+li:hover {
+    font-weight: bold;
+    text-decoration: line-through;
+    font-stretch: expanded;
+    color: dodgerblue;
+    
+
+}
+
+button {
+    font-size: 1.2em;
+    border-color: dodgerblue;
+    background-color: #eef;
+    color: deepskyblue;
+    border-radius: 5%;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+*/
